@@ -1,0 +1,4 @@
+connections:
+  - alias: psql
+    driver: postgresql
+    dataSourceName: "postgres://witherslin@localhost:5432/database?sslmode=disable"

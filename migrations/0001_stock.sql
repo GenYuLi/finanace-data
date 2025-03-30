@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS stock_data (
+    timestamp TIMESTAMPTZ,
+    open DOUBLE PRECISION,
+    high DOUBLE PRECISION,
+    low DOUBLE PRECISION,
+    close DOUBLE PRECISION,
+    volume BIGINT
+)
